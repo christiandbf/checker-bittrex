@@ -2,7 +2,7 @@
 
 Modulo para comprobar condiciones dadas en un mercado en Bittrex
 
-`
+```javascript
 controller({
   "period": 1000,
   "checkers": [
@@ -20,4 +20,4 @@ controller({
     }
   ]
 })
-`
+```
