@@ -1,8 +1,5 @@
-# Checker Bittex
+const controller = require('../index')
 
-Modulo para comprobar condiciones dadas en un mercado en Bittrex
-
-`
 controller({
   "period": 1000,
   "checkers": [
@@ -20,4 +17,3 @@ controller({
     }
   ]
 })
-`

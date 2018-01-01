@@ -1,0 +1,25 @@
+{
+  "name": "checker-bittrex",
+  "version": "1.0.0",
+  "description": "A module to develop conditions to check on Bittrex markets",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiandbf/checker-bittrex.git"
+  },
+  "keywords": [
+    "checker",
+    "bittrex",
+    "cryptocurrencies",
+    "trading"
+  ],
+  "author": "Christian Barrios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiandbf/checker-bittrex/issues"
+  },
+  "homepage": "https://github.com/christiandbf/checker-bittrex#readme",
+  "dependencies": {
+    "node-bittrex-api": "^0.8.1"
+  }
+}
