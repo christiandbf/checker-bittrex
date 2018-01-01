@@ -1,6 +1,6 @@
 {
   "name": "checker-bittrex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module to develop conditions to check on Bittrex markets",
   "main": "index.js",
   "repository": {
