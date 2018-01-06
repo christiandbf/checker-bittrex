@@ -7,7 +7,7 @@ controller({
       "name": 'test',
       "condition": (lastSummary, currentSummary) => currentSummary.MarketName === 'USDT-BTC',
       "update": (lastSummary, currentSummary) => currentSummary,
-      "do": (data) => console.log(data.result[0].last)
+      "do": (data) => console.log(data)
     }
   ],
   "error": message => console.log(message)
