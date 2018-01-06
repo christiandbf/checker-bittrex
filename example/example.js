@@ -4,16 +4,11 @@ controller({
   "period": 1000,
   "checkers": [
     {
-      "name": 'Bitcoin',
-      "condition": (lastSummary, currentSummary) => currentSummary.MarketName == 'USDT-BTC',
-      "updateConstraint": (lastSummary, currentSummary) => currentSummary,
-      "do": data => console.log(data)
-    },
-    {
-      "name": 'Bitcoin Cash',
-      "condition": (lastSummary, currentSummary) => currentSummary.MarketName == 'USDT-BCC',
-      "updateConstraint": (lastSummary, currentSummary) => currentSummary,
-      "do": data => console.log(data)
+      "name": 'test',
+      "condition": (lastSummary, currentSummary) => currentSummary.MarketName === 'USDT-BTC',
+      "update": (lastSummary, currentSummary) => currentSummary,
+      "do": (data) => console.log(data.result[0].last)
     }
-  ]
+  ],
+  "error": message => console.log(message)
 })
