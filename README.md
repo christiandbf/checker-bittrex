@@ -1,6 +1,6 @@
 # checker-bittrex
 
-Module to check if a market on Bittrex exchange accomplish a given condition. If you are interested in work in a module with more exchanges, please write me to my email: <christiandbf@hotmail.com>.
+Module to check if a market on Bittrex exchange accomplish a given condition.
 
 ## Install
 
